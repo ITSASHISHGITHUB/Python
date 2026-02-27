@@ -240,14 +240,12 @@ print(text.find("z"))   # Output: -1  (not found)
 phone1 = "+91-6360-431-631"
 phone2 = "6360-431-631"
 
-print(phone1[phone1.find("-")+1:]) 
-
+print(phone1[phone1.find("-")+1:])
 
 
 print("123".isdigit())      # True
 print("123a".isdigit())     # False
 
 print("ashish".isalpha())   # True
-print("ashish123".isalpha())# False
-
-print("ashish123".isalnum())# True
+print("ashish123".isalpha())  # False
+print("ashish123".isalnum())  # True
