@@ -113,19 +113,6 @@ print(math.log(100, 10))   # Output: 2.0    — log base 10 of 100
 # round()    → rounds to nearest  → round(3.5) = 4
 
 
-# COMPARISON OPERATORS
-# these return True or False (bool)
-
-a = 10
-b = 20
-
-print(a == b)   # Output: False — equal to
-print(a != b)   # Output: True  — not equal to
-print(a > b)    # Output: False — greater than
-print(a < b)    # Output: True  — less than
-print(a >= b)   # Output: False — greater than or equal to
-print(a <= b)   # Output: True  — less than or equal to
-
 
 # PRACTICAL: WORKING WITH input() AND NUMBERS
 # input() always returns a string — always convert before doing math
